@@ -1,0 +1,35 @@
+
+{
+
+
+  "totalUsed": 70,
+  "totalLeft": 30,
+  "totalFiles": 473,
+  "totalFolders": 21,
+  "totalServers": 5,
+  "maxFileSize": "18GB",
+  "serverStorage": {
+    "Server_1": "20GB",
+    "Server_2": "20GB",
+    "Server_3": "20GB",
+    "Server_4": "20GB",
+    "Server_5": "20GB"
+  },
+  "fileData": [
+    {
+      "name": "File_1",
+      "lastEdited": "11-Feb-2024",
+      "server": "Server_1",
+      "duration": "3 months",
+      "size": "24MB"
+    },
+    {
+      "name": "File_2",
+      "lastEdited": "12-Feb-2024",
+      "server": "Server_2",
+      "duration": "2 months",
+      "size": "30MB"
+    }
+   
+  ]
+}
