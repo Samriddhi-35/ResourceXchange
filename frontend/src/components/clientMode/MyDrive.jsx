@@ -4,7 +4,6 @@ import UploadModal from "./UploadModal";
 import UploadButton from "./UploadButton";
 import FileCard from "./FileCard";
 import SearchBar from "./SearchBar";
-import FilePreview from "./FilePreview";
 const MyDrive = () => {
   const [myDriveFiles, setMyDriveFiles] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -93,9 +92,6 @@ const MyDrive = () => {
 
       {/* Upload Button */}
       <UploadButton onClick={() => setIsModalOpen(true)} />
-
-      {/* File Preview Modal */}
-      {previewFile && <FilePreview file={previewFile} onClose={closePreview} />}
 
       {/* Upload Modal */}
       {isModalOpen && (

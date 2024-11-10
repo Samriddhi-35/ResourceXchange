@@ -4,7 +4,6 @@ import UploadModal from "../components/clientMode/UploadModal";
 import UploadButton from "../components/clientMode/UploadButton";
 import FileCard from "../components/clientMode/FileCard";
 import SearchBar from "../components/clientMode/SearchBar";
-import FilePreview from "../components/clientMode/FilePreview";
 import handleDownload from "../handlers/handleDownload";
 import handleDelete from "../handlers/handleDelete";
 
@@ -156,9 +155,6 @@ const Home = () => {
 
       {/* Upload Button and Modals */}
       <UploadButton onClick={() => setIsModalOpen(true)} />
-      {previewFile && (
-        <FilePreview file={previewFile} onClose={() => setPreviewFile(null)} />
-      )}
       {isModalOpen && <UploadModal onClose={() => setIsModalOpen(false)} />}
     </div>
   );
