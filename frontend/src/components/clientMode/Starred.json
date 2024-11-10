@@ -1,0 +1,10 @@
+{
+  "starredFiles": [
+    { "name": "Starred_File_1", "email": "velmajane@gmail.com" },
+    { "name": "Starred_File_2", "email": "velmajane@gmail.com" }
+  ],
+  "starredFolders": [
+    { "name": "Starred_Folder_1", "email": "velmajane@gmail.com" },
+    { "name": "Starred_Folder_2", "email": "velmajane@gmail.com" }
+  ]
+}

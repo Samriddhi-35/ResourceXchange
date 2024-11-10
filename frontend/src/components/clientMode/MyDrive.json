@@ -1,0 +1,11 @@
+
+{
+  "myDriveFiles": [
+    { "name": "MyDrive_File_1", "email": "velmajane@gmail.com" },
+    { "name": "MyDrive_File_2", "email": "velmajane@gmail.com" }
+  ],
+  "myDriveFolders": [
+    { "name": "MyDrive_Folder_1", "email": "velmajane@gmail.com" },
+    { "name": "MyDrive_Folder_2", "email": "velmajane@gmail.com" }
+  ]
+}
